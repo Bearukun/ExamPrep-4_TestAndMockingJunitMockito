@@ -34,7 +34,7 @@ public class FetcherTest {
         String joke = fetch.fetchJoke().toString();
 
         //Test wheter the result that we expect is true to what is returned to us.
-        assertEquals("Joke recived", "Joke{" + "joke=" + "This is a funny joke" + ", reference=" + "http://api.icndb.com/" + '}', joke);
+        assertEquals("Joke received", "Joke{" + "joke=" + "This is a funny joke" + ", reference=" + "http://api.icndb.com/" + '}', joke);
 
     }
 
