@@ -2,6 +2,7 @@ package exercise;
 
 public class Fetcher {
 
+    //Variables
     private JokeFetcher jF;
     private Emailer eM;
 
